@@ -9,6 +9,8 @@ You can customize how the result looked like by editing template.xlsx
 
 Each of tables in be represented by a sheet in the genrated Excel file.
 
+![Template](/template.png?raw=true)
+
 Usage
 =====
 
