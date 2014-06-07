@@ -30,5 +30,5 @@ Credit
 
 This script gets the job done thanks to:
 
-PHPExcel (https://github.com/PHPOffice/PHPExcel)
-Adminer (http://adminer.org)
+* PHPExcel (https://github.com/PHPOffice/PHPExcel)
+* Adminer (http://adminer.org)
