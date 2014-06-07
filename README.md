@@ -1,8 +1,13 @@
-Japanese-style database tables' description generator
+Database tables' description generator
 =====================================================
 
 This tool takes a database and generate table definition into an Excel file.
 It supports auto column name translation descriptions.
+
+This focus is Japanese-style. However, you are free to customize your own locale, as well as the theme.
+You can customize how the result looked like by editing template.xlsx
+
+Each of tables in be represented by a sheet in the genrated Excel file.
 
 Usage
 =====
@@ -10,7 +15,7 @@ Usage
 For simple usage, just fill database params in export.php and run the script.
 Result will be stored in a folder "output".
 
-You can customize how the result looked like by editing template.xlsx
+Make your on styles on template.xlsx . Be careful of table cells. If you move some cells, make sure to checking will export.php for updating. Most of the script has cell-addresses hardcoded.
 
 For auto translations of field comment, the idea is:
 
@@ -23,7 +28,7 @@ For auto translations of field comment, the idea is:
 Credit
 ======
 
-This scripts get the job done thanks to:
+This script gets the job done thanks to:
 
 PHPExcel (https://github.com/PHPOffice/PHPExcel)
 Adminer (http://adminer.org)
