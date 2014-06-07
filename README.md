@@ -8,7 +8,7 @@ Usage
 =====
 
 For simple usage, just fill database params in export.php and run the script.
-Result will be stored in a folder "output" (created this by yourself)
+Result will be stored in a folder "output".
 
 You can customize how the result looked like by editing template.xlsx
 
